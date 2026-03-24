@@ -27,6 +27,14 @@ Offene Aufgaben für die Website-Entwicklung.
 - [ ] **Favicon** hinzufügen (`assets/favicon.ico` + `<link rel="icon">` in `index.html`)
 - [ ] **Open Graph Meta-Tags** für Link-Previews (Twitter/LinkedIn)
 
+## Hosting-Migration (wichtig)
+
+- [ ] **Cloudflare Pages** als Hosting-Alternative einrichten
+  - Free-Tier: unbegrenzte Deployments, kostenlose Domain `*.pages.dev`, custom domain möglich
+  - Vorteil: funktioniert mit **privaten GitHub-Repos** → Repo kann auf privat gestellt werden
+  - Ablauf: cloudflare.com → Pages → Connect to Git → Repo auswählen → kein Build-Command, Output: `/`
+  - Danach: GitHub-Repo auf privat stellen, GitHub Pages deaktivieren
+
 ## Langfristig / Ideen
 
 - [ ] Migration zu **Astro** oder **Jekyll** wenn Inhalt stabil ist
