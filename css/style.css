@@ -84,6 +84,36 @@ nav ul a:hover {
   text-decoration: none;
 }
 
+/* Theme controls */
+.nav-theme-controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.nav-theme-controls button {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-family: var(--font);
+  font-size: 0.75rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+  white-space: nowrap;
+}
+
+.nav-theme-controls button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+#btn-shuffle {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 /* ===========================
    HERO
    =========================== */
@@ -428,8 +458,18 @@ footer a:hover {
     justify-content: center;
   }
 
+  nav {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
   nav ul {
     gap: 1.2rem;
+  }
+
+  .nav-theme-controls {
+    width: 100%;
+    justify-content: flex-end;
   }
 
   .cv-grid {

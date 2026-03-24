@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jakob – Persönliche Website</title>
+  <title>Jakob Vanek</title>
+  <meta name="description" content="Personal website of Jakob Vanek – M.Sc. Information Systems, Frankfurt." />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,34 +14,38 @@
 
   <!-- NAV -->
   <nav>
-    <span class="nav-name">Jakob</span>
+    <span class="nav-name">Jakob Vanek</span>
     <ul>
-      <li><a href="#about">Über mich</a></li>
+      <li><a href="#about">About</a></li>
       <li><a href="#cv">CV</a></li>
-      <li><a href="#projects">Projekte</a></li>
-      <li><a href="#contact">Kontakt</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
+    <div class="nav-theme-controls">
+      <button id="btn-shuffle" title="Randomize colors">don't like the look?</button>
+      <button id="btn-reset" title="Reset to default">reset</button>
+    </div>
   </nav>
 
   <!-- HERO -->
   <section id="about" class="hero">
     <div class="hero-content">
       <div class="hero-text">
-        <p class="hero-greeting">Hallo, ich bin</p>
-        <h1>Jakob <span class="accent">Vorname</span></h1>
-        <p class="hero-role"><!-- z.B. Software Developer · Data Scientist · Student --></p>
+        <p class="hero-greeting">Hi, I'm</p>
+        <h1>Jakob <span class="accent">Vanek</span></h1>
+        <p class="hero-role">M.Sc. Information Systems · Frankfurt</p>
         <p class="hero-bio">
-          <!-- Kurze Beschreibung über dich, was du machst, woran du interessiert bist. -->
+          Graduate in Information Systems with a background in Economics, Philosophy, and Computer Science.
+          Interested in machine learning, data engineering, and building things.
         </p>
         <div class="hero-links">
           <a href="https://github.com/JayVeezy1" target="_blank" class="btn-primary">GitHub</a>
-          <a href="#cv" class="btn-secondary">Lebenslauf</a>
+          <a href="https://linkedin.com/in/jakobvanek" target="_blank" class="btn-secondary">LinkedIn</a>
+          <a href="#cv" class="btn-secondary">CV</a>
         </div>
       </div>
       <div class="hero-image">
-        <!-- Bild einfach in assets/ ablegen und src anpassen -->
-        <!-- <img src="assets/foto.jpg" alt="Foto von Jakob" /> -->
-        <div class="avatar-placeholder">JV</div>
+        <img src="https://jayveezy1.github.io/images/pic_5.jpg" alt="Jakob Vanek" />
       </div>
     </div>
   </section>
@@ -48,72 +53,140 @@
   <!-- CV -->
   <section id="cv">
     <div class="container">
-      <h2>Lebenslauf</h2>
+      <h2>Curriculum Vitae</h2>
 
       <div class="cv-grid">
 
+        <!-- OCCUPATION -->
         <div class="cv-column">
-          <h3>Erfahrung</h3>
+          <h3>Experience</h3>
 
           <div class="cv-entry">
             <div class="cv-meta">
-              <span class="cv-date">2023 – heute</span>
-              <span class="cv-tag">Vollzeit</span>
+              <span class="cv-date">2023 – 2024</span>
+              <span class="cv-tag">Working Student</span>
             </div>
-            <h4>Berufsbezeichnung</h4>
-            <p class="cv-org">Unternehmen / Organisation</p>
-            <p class="cv-desc">Kurze Beschreibung der Tätigkeit und wichtigster Verantwortlichkeiten.</p>
+            <h4>Student Assistant</h4>
+            <p class="cv-org">DB Energie – IT-Architektur</p>
+            <p class="cv-desc">Application Management · Agile Project Management</p>
           </div>
 
           <div class="cv-entry">
             <div class="cv-meta">
-              <span class="cv-date">2021 – 2023</span>
-              <span class="cv-tag">Werkstudent</span>
+              <span class="cv-date">2022 – 2023</span>
+              <span class="cv-tag">Working Student</span>
             </div>
-            <h4>Berufsbezeichnung</h4>
-            <p class="cv-org">Unternehmen / Organisation</p>
-            <p class="cv-desc">Kurze Beschreibung der Tätigkeit.</p>
+            <h4>Student Assistant</h4>
+            <p class="cv-org">Siemens – Performance Controlling</p>
+            <p class="cv-desc">Development of Reporting Apps · Integration of Snowflake Data Warehouse</p>
+          </div>
+
+          <div class="cv-entry">
+            <div class="cv-meta">
+              <span class="cv-date">2019 – 2020</span>
+              <span class="cv-tag">Full-time</span>
+            </div>
+            <h4>Employee</h4>
+            <p class="cv-org">City Surveying Office Frankfurt am Main</p>
+            <p class="cv-desc">Advancement of the 3D city model · ArcMap & CAD · Redevelopment of the streetnames database</p>
+          </div>
+
+          <div class="cv-entry">
+            <div class="cv-meta">
+              <span class="cv-date">2017 – 2018</span>
+              <span class="cv-tag">Working Student</span>
+            </div>
+            <h4>Student Assistant</h4>
+            <p class="cv-org">Communications Agency A&amp;B One</p>
+            <p class="cv-desc">Daily monitoring and reporting for corporate partners</p>
           </div>
         </div>
 
+        <!-- EDUCATION -->
         <div class="cv-column">
-          <h3>Ausbildung</h3>
+          <h3>Education</h3>
 
           <div class="cv-entry">
             <div class="cv-meta">
-              <span class="cv-date">2019 – 2023</span>
-              <span class="cv-tag">Studium</span>
+              <span class="cv-date">2021 – 2024</span>
+              <span class="cv-tag">M.Sc.</span>
             </div>
-            <h4>Studiengang</h4>
-            <p class="cv-org">Universität / Hochschule</p>
-            <p class="cv-desc">Abschluss: B.Sc. / M.Sc.</p>
+            <h4>Information Systems</h4>
+            <p class="cv-org">Goethe University Frankfurt</p>
+            <p class="cv-desc">Thesis: Analysis of ML Prediction Quality for Automated Subgroups within the MIMIC III Dataset (2023)</p>
           </div>
 
           <div class="cv-entry">
             <div class="cv-meta">
-              <span class="cv-date">bis 2019</span>
-              <span class="cv-tag">Schule</span>
+              <span class="cv-date">2020 – 2021</span>
+              <span class="cv-tag">M.Sc.</span>
             </div>
-            <h4>Abitur</h4>
-            <p class="cv-org">Name der Schule, Stadt</p>
+            <h4>Information Systems</h4>
+            <p class="cv-org">Regensburg University</p>
+          </div>
+
+          <div class="cv-entry">
+            <div class="cv-meta">
+              <span class="cv-date">2020</span>
+              <span class="cv-tag">Studies</span>
+            </div>
+            <h4>Informatics</h4>
+            <p class="cv-org">Augsburg University</p>
+          </div>
+
+          <div class="cv-entry">
+            <div class="cv-meta">
+              <span class="cv-date">2014 – 2018</span>
+              <span class="cv-tag">B.Sc.</span>
+            </div>
+            <h4>Economics and Business</h4>
+            <p class="cv-org">Goethe University Frankfurt</p>
+            <p class="cv-desc">
+              Thesis: Kritische Betrachtung zunehmender Ökonomisierung ·
+              <a href="https://jayveezy1.github.io/assets/stuff/BA_JV.pdf" target="_blank">PDF</a> ·
+              <a href="http://dx.doi.org/10.13140/RG.2.2.15841.84320" target="_blank">ResearchGate</a>
+            </p>
+          </div>
+
+          <div class="cv-entry">
+            <div class="cv-meta">
+              <span class="cv-date">2018 – 2019</span>
+              <span class="cv-tag">Studies</span>
+            </div>
+            <h4>Philosophy</h4>
+            <p class="cv-org">Goethe University Frankfurt</p>
           </div>
         </div>
 
+        <!-- SKILLS -->
         <div class="cv-column">
           <h3>Skills</h3>
           <div class="skills">
             <span class="skill">Python</span>
+            <span class="skill">Machine Learning</span>
+            <span class="skill">SQL</span>
+            <span class="skill">Snowflake</span>
+            <span class="skill">ArcGIS / ArcMap</span>
             <span class="skill">JavaScript</span>
             <span class="skill">HTML / CSS</span>
-            <span class="skill">SQL</span>
             <span class="skill">Git</span>
-            <span class="skill"><!-- weiterer Skill --></span>
+            <span class="skill">Agile / Scrum</span>
           </div>
 
-          <h3 style="margin-top: 2rem;">Sprachen</h3>
+          <h3 style="margin-top: 2rem;">Languages</h3>
           <div class="skills">
-            <span class="skill">Deutsch – Muttersprache</span>
-            <span class="skill">Englisch – fließend</span>
+            <span class="skill">German – Native</span>
+            <span class="skill">English – Fluent</span>
+          </div>
+
+          <h3 style="margin-top: 2rem;">Publications</h3>
+          <div class="cv-entry" style="margin-top: 1rem;">
+            <h4 style="font-size:0.85rem; font-weight:500;">Bachelor Thesis (2018)</h4>
+            <p class="cv-desc">
+              Kritische Betrachtung zunehmender Ökonomisierung<br />
+              <a href="https://jayveezy1.github.io/assets/stuff/BA_JV.pdf" target="_blank">Open PDF</a> ·
+              <a href="http://dx.doi.org/10.13140/RG.2.2.15841.84320" target="_blank">DOI on ResearchGate</a>
+            </p>
           </div>
         </div>
 
@@ -124,45 +197,34 @@
   <!-- AKTUELLE PROJEKTE -->
   <section id="projects">
     <div class="container">
-      <h2>Aktuelle Projekte</h2>
-      <p class="section-sub">Woran ich gerade arbeite</p>
+      <h2>Current Projects</h2>
+      <p class="section-sub">What I'm working on</p>
 
       <div class="projects-grid">
 
         <article class="project-card">
           <div class="project-header">
-            <h3>Projektname</h3>
-            <a href="https://github.com/JayVeezy1/repo" target="_blank" class="project-link">↗</a>
-          </div>
-          <p>Kurze Beschreibung des Projekts – was es macht, warum du es baust.</p>
-          <div class="project-tags">
-            <span class="tag">Python</span>
-            <span class="tag">In Arbeit</span>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-header">
-            <h3>Projektname</h3>
-            <a href="https://github.com/JayVeezy1/repo" target="_blank" class="project-link">↗</a>
-          </div>
-          <p>Kurze Beschreibung des Projekts.</p>
-          <div class="project-tags">
-            <span class="tag">JavaScript</span>
-            <span class="tag">Abgeschlossen</span>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-header">
-            <h3>Diese Website</h3>
+            <h3>This Website</h3>
             <a href="https://github.com/JayVeezy1/JayVeezy1.github.io" target="_blank" class="project-link">↗</a>
           </div>
-          <p>Meine persönliche Website – gebaut mit HTML, CSS und JavaScript. Gehostet auf GitHub Pages.</p>
+          <p>Personal website built from scratch with HTML, CSS, and JavaScript. Hosted on GitHub Pages.</p>
           <div class="project-tags">
             <span class="tag">HTML</span>
             <span class="tag">CSS</span>
-            <span class="tag">In Arbeit</span>
+            <span class="tag">In Progress</span>
+          </div>
+        </article>
+
+        <!-- Add your current projects below -->
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Project Name</h3>
+            <a href="https://github.com/JayVeezy1" target="_blank" class="project-link">↗</a>
+          </div>
+          <p>Add your project description here.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">In Progress</span>
           </div>
         </article>
 
@@ -173,18 +235,17 @@
   <!-- CONTACT -->
   <section id="contact">
     <div class="container contact-inner">
-      <h2>Kontakt</h2>
-      <p>Du erreichst mich am besten über GitHub oder per E-Mail.</p>
+      <h2>Contact</h2>
+      <p>Feel free to reach out via GitHub or LinkedIn.</p>
       <div class="contact-links">
         <a href="https://github.com/JayVeezy1" target="_blank">GitHub</a>
-        <a href="mailto:deine@email.de">E-Mail</a>
-        <!-- weitere Links: LinkedIn, etc. -->
+        <a href="https://linkedin.com/in/jakobvanek" target="_blank">LinkedIn</a>
       </div>
     </div>
   </section>
 
   <footer>
-    <p>© 2026 Jakob · <a href="https://github.com/JayVeezy1/JayVeezy1.github.io" target="_blank">Quellcode</a></p>
+    <p>© 2026 Jakob Vanek · <a href="https://github.com/JayVeezy1/JayVeezy1.github.io" target="_blank">Source</a></p>
   </footer>
 
   <script src="js/main.js"></script>

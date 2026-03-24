@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:jayveezy1.github.io)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(gh api:*)",
+      "Bash(curl -s \"https://api.github.com/repos/JayVeezy1/jayveezy1.github.io\")",
+      "Bash(curl -s \"https://api.github.com/repos/JayVeezy1/jayveezy1.github.io/git/refs\")",
+      "Bash(curl -s \"https://api.github.com/users/JayVeezy1\")",
+      "Bash(curl -s \"https://api.github.com/users/JayVeezy1/repos\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/JayVeezy1/jayveezy1.github.io/main/index.html\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/JayVeezy1/jayveezy1.github.io/master/index.html\")",
+      "Bash(curl -s \"https://jayveezy1.github.io\")",
+      "Bash(curl -s \"https://api.github.com/repos/JayVeezy1/jayveezy1.github.io/git/trees/master?recursive=1\")"
+    ]
+  }
+}
