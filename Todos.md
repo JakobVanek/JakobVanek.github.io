@@ -6,6 +6,8 @@ Offene Aufgaben für die Website-Entwicklung.
 
 ## Inhalt
 
+- [ ] **Masterarbeit**: vollständigen Text verlinken (aktuell nur GitHub-Repo verlinkt)
+- [ ] **Seminararbeiten**: bisherige Seminararbeiten sammeln und ebenfalls als Publications verlinken
 - [ ] **Aktuelle Projekte** eintragen – echte Projektbeschreibungen und GitHub-Links ergänzen
 - [ ] **Profilfoto** in `assets/` ablegen und `<img>` in `index.html` auf lokale Datei umstellen (aktuell noch Fallback auf alten Server)
 - [ ] **E-Mail** im Kontakt-Bereich ergänzen (optional)
