@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Transparent background -->
+
+  <!-- J -->
+  <text x="28%" y="55%" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif" font-size="28" font-weight="600" fill="#e4e4e8">
+    J
+  </text>
+
+  <!-- V as arrow -->
+  <path d="M30 40 L42 24 L54 40" fill="none" stroke="#7c6af7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
